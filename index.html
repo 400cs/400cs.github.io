@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Nguyen | Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="logo">BN</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Benjamin</span>
+                    <span class="title-line">Nguyen</span>
+                </h1>
+                <p class="hero-subtitle">Software Developer & Problem Solver</p>
+                <p class="hero-description">
+                    Aspiring software engineer with experience in full-stack web development, 
+                    game development, and machine learning. Passionate about solving problems 
+                    through elegant, simple solutions.
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="/Ben_s_csResume_26_.pdf" class="btn-secondary" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Computer Science student at California State Polytechnic University, Pomona, 
+                        graduating in December 2025 with a 3.73 GPA. My journey in software development 
+                        has taken me through full-stack web applications, game development with Unity, 
+                        and machine learning projects.
+                    </p>
+                    <p>
+                        I believe in the power of clean, maintainable code and thoughtful architecture. 
+                        Whether building RESTful APIs, designing database schemas, or implementing machine 
+                        learning models, I approach each challenge with critical thinking and a commitment 
+                        to technical excellence.
+                    </p>
+                    <p>
+                        When I'm not coding, I enjoy contributing to open-source projects and continuously 
+                        learning new technologies to expand my skill set.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">3.73</div>
+                        <div class="stat-label">GPA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2025</div>
+                        <div class="stat-label">Graduating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1: Rivals Tracker -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Marvel Rivals Tracker</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/contactkc/rivals-tracker" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A full-stack web application built for Marvel Rivals players to track and analyze 
+                        their performance metrics. Features secure authentication, RESTful API architecture, 
+                        and optimized database queries handling 500+ API requests.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">RESTful API</span>
+                        <span class="tech-tag">JWT</span>
+                    </div>
+                    <div class="project-highlights">
+                        <ul>
+                            <li>Architected microservices-based application with 12+ RESTful endpoints</li>
+                            <li>Implemented JWT token authentication with password hashing</li>
+                            <li>Designed normalized PostgreSQL database schema</li>
+                            <li>Collaborated with team of 3 using Git version control</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 2: Traffic Prediction ML -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Traffic Prediction Model</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/400cs/CS4210-ML-Project" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        A machine learning project utilizing supervised learning techniques to classify 
+                        road traffic severity levels. Achieved 91% testing accuracy through iterative 
+                        model refinement and comparative analysis.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">scikit-learn</span>
+                        <span class="tech-tag">KNN</span>
+                        <span class="tech-tag">Logistic Regression</span>
+                        <span class="tech-tag">Jupyter</span>
+                    </div>
+                    <div class="project-highlights">
+                        <ul>
+                            <li>Trained and compared KNN and Logistic Regression models</li>
+                            <li>Achieved 91% testing accuracy with Logistic Regression</li>
+                            <li>Evaluated performance using confusion matrices and accuracy metrics</li>
+                            <li>Managed dependencies with Conda environment</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <!-- Project 3: 2D Game -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Emberlight - 2D Game</h3>
+                        <div class="project-links">
+                            <a href="https://github.com/400cs/Emberlight-Build" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="project-description">
+                        An object-oriented 2D game built with Unity and C#, featuring modular architecture 
+                        and scalable design patterns. Implements dynamic content generation and optimized 
+                        performance through thoughtful software architecture.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C#</span>
+                        <span class="tech-tag">Unity</span>
+                        <span class="tech-tag">OOP</span>
+                        <span class="tech-tag">Observer Pattern</span>
+                        <span class="tech-tag">UI/UX Design</span>
+                    </div>
+                    <div class="project-highlights">
+                        <ul>
+                            <li>Engineered modular game systems using Observer Pattern</li>
+                            <li>Implemented ScriptableObjects for data management and reusability</li>
+                            <li>Developed probability-based algorithms for dynamic content</li>
+                            <li>Designed custom UI/UX for player stats and power-ups</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C#</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">Vite</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend & Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">JPA/Hibernate</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git/GitHub</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Unity</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Jupyter</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Software Engineering</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Unit Testing</span>
+                        <span class="skill-tag">MVC Architecture</span>
+                        <span class="skill-tag">Design Patterns</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm currently seeking software engineering opportunities. 
+                    Feel free to reach out if you'd like to discuss potential roles, 
+                    collaborate on projects, or just chat about technology.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:bensjob365@gmail.com" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <span>bensjob365@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/400cs" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                        </svg>
+                        <span>github.com/400cs</span>
+                    </a>
+                    <a href="/Ben_s_csResume_26_.pdf" class="contact-link" download>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="12" y1="18" x2="12" y2="12"/>
+                            <line x1="9" y1="15" x2="12" y2="18"/>
+                            <line x1="15" y1="15" x2="12" y2="18"/>
+                        </svg>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Benjamin Nguyen. All rights reserved.</p>
+            <p class="footer-note">Built with care and attention to detail.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
